@@ -29,6 +29,9 @@ function Header() {
               href="/addtour
             "
             >
+              <a className="link" href="/tourlist">
+                list
+              </a>
               Add
             </a>
             <Button text={"Login"} />

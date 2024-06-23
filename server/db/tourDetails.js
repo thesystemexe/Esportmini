@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const TourSchema = new mongoose.Schema({
   image: String,
   org: String,
-  name: String,
+  game: String,
   date: String,
 });
 
