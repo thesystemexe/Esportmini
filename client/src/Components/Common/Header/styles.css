@@ -1,0 +1,67 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header {
+  /* background-image: url('../../../Assests/Blueback.jpg'); */
+  background-size: cover;
+  background-position: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding-left: 40px;
+  color: var(--blue);
+  font-family: "Inter", sans-serif;
+}
+
+.logo-img {
+  padding-left: 40px;
+  width: 150px;
+  height: auto;
+  image-rendering: pixelated; /* Maintain pixelated look */
+
+  animation: moveInCircle 5s  linear alternate;
+}
+
+@keyframes moveInCircle {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(75px); /* Move to initial position */
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(90deg) translateX(75px); /* Rotate and move around the circle */
+  }
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 60px;
+  gap: 1.5rem;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--grey);
+  font-family: "Inter", sans-serif;
+}
+
+.link:hover {
+  color: var(--white);
+  transition: all 0.3sec;
+}
+
+.login-btn {
+  text-decoration: none;
+}
+
+.text-btn {
+  color: var(--white);
+}

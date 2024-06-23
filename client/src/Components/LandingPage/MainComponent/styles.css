@@ -1,0 +1,47 @@
+.body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nui-image {
+  width: 300px;
+  height: auto;
+  image-rendering: pixelated; /* Maintain pixelated look */
+}
+
+.left-body {
+  margin-left: 25px;
+  margin-top: 70px;
+  font-family: "inter";
+  color: white;
+}
+
+.heading-1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.heading-2 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--blue);
+  margin-bottom: 1px;
+}
+.heading-3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.right-body {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.btns {
+  display: flex;
+  gap: 2rem;
+  margin-top: 30px;
+}
